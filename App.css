@@ -1,0 +1,20 @@
+/*TODO: make scroll box dynamically resize*/
+/* margins for title and headers */
+.maintitle {
+  margin-left: 1em;
+}
+
+.maindescription {
+  margin-left: 2em;
+}
+
+/*scroll box for pastslider*/
+.container {
+  margin-top: 1rem;
+}
+
+.col-10 {
+  overflow: auto;
+  position: relative;
+  height: 440px;
+}
