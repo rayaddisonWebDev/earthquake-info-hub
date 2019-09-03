@@ -33,9 +33,12 @@ class HighlightEq extends React.Component {
   render() {
     const { dataObject } = this.props;
     return (
-      <div className="ui raised very padded text container segment">
-        <h2>Featured Earthquake</h2>
-        <div>
+      <div
+        id="feature"
+        className="ui raised very padded text container segment"
+      >
+        <h2 id="section-header">Featured Earthquake</h2>
+        <div id="section-body">
           {!this.state.clicked ? (
             <p>
               Click below to see a featured earthquake from the past 24 hours!
@@ -60,6 +63,7 @@ class HighlightEq extends React.Component {
           )}
         </div>
         <button
+          id="section-body"
           className="ui button"
           style={{ display: this.state.isShowing ? "block" : "none" }}
           onClick={this.handleOnClick.bind(this)}

@@ -1,0 +1,86 @@
+/*TODO: make scroll box dynamically resize*/
+/* margins for title and headers */
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* removes auto bottom margin of jumbotron and prevents navbar from overlapping it on small screens */
+.jumbotron {
+  margin-bottom: -2rem;
+  border-top: 1.2rem solid #e9ecef;
+}
+
+#section-header {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 1em;
+}
+
+#section-body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+/* aligns text in an appealing way */
+.maintitle {
+  margin-left: 1em;
+}
+
+.maindescription {
+  margin-left: 2.5em;
+}
+
+/* divs used to separate content */
+#border-div {
+  position: relative;
+  border: 5px solid black;
+}
+
+/* makes imgs take up a screen and opaque */
+img {
+  position: absolute;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.6;
+  min-height: 100%;
+}
+
+/* makes bottom image not show top image behind it */
+.imgtwo {
+  opacity: 1;
+}
+
+/*scroll box for pastslider*/
+/* make this resize dynamically */
+.container {
+  margin-top: 1rem;
+}
+
+.col-10 {
+  overflow: auto;
+  position: relative;
+  height: 440px;
+}
+
+/* makes eqcount box have a bottom margin on smaller screens */
+#even-box {
+  margin-bottom: 1rem;
+}
+
+/* makes background of this white */
+#mags {
+  background: white;
+  border-top: 10px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* TODO: Make the components fit to a screen's size */
+/* eqcount will be in same screen as title */
+/* Make this resize dynamically */
+
+/* TODO: Color and Font */
+/* look for images of earthquakes/mountains to use as backgrounds */
+/* get some good fonts going DONE */
+/* add custom css to the items in semantic ui things */
